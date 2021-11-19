@@ -1,0 +1,94 @@
+.password-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #b6c3ca;
+  border-radius: 4px;
+  max-width: 300px;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .password-item {
+    margin-right: 16px;
+  }
+}
+.details-container {
+  display: flex;
+  align-items: center;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+.color1 {
+  background-color: #7683cb;
+}
+.color2 {
+  background-color: #f59e0b;
+}
+.color3 {
+  background-color: #10b981;
+}
+.color4 {
+  background-color: #f97316;
+}
+.color5 {
+  background-color: #14b8a6;
+}
+.color6 {
+  background-color: #b91c1c;
+}
+.initial {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+.password-details {
+  margin-left: 12px;
+}
+.website {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+.username {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.password {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.delete-img {
+  width: 20px;
+  height: 20px;
+}
+.stars {
+  width: 120px;
+  height: 12px;
+}
